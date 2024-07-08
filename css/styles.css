@@ -1,0 +1,29 @@
+:root {
+    /* Couleurs définies ici */
+    --header_bg: #f2f2f2;
+
+    /* Ce qui a trait aux fonts */
+    font-family: 'Lato', sans-serif;
+    --taille_petition: 1.2em;
+
+}
+
+:root.dark {
+    /* Couleurs définies ici à voir si on veut un thème sombre, vraiment pas obligé du moins dans un premier temps */
+}
+
+header {
+    background-color: var(--header_bg);
+    padding: 1em;
+}
+
+#main_wrap {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
+#texte_petition {
+    font-size: var(--taille_petition);
+}
